@@ -1,4 +1,5 @@
-import { data } from "./data";
+// import { data } from "./data";
+const data = require("./data")
 const http = require("http");
 
 const server = http.createServer((req, res) => {

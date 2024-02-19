@@ -1,4 +1,4 @@
-export const data = [
+const data = [
     {
       id: 1,
       imageUrl:
@@ -100,3 +100,5 @@ export const data = [
       company: "Google",
     },
   ];
+
+  module.exports = data;
