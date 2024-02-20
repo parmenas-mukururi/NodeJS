@@ -30,6 +30,10 @@ try {
 
     //renaming the file
     await fsPromise.rename(path.join(__dirname, 'files', 'promises.txt'), path.join(__dirname, 'files', 'renamed.txt'))
+
+    //creating a file that does not exist
+    const newData = await fsPromise.appendFile(path.join(__dirname, 'files', 'newfile.txt'), 'This is a new file with some data', {encoding: 'utf8'})
+    console.log(newData)
 }
 catch (err){
     console.error(err)
