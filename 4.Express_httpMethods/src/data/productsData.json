@@ -1,0 +1,14 @@
+[
+  {
+    "productId": "39a0a2e8-1dc4-4e84-acf9-7e787bca7a4c",
+    "productName": "Product 1",
+    "productPrice": 150,
+    "productDescription": "This is product 1"
+  },
+  {
+    "productName": "Product 2",
+    "productPrice": 170,
+    "productDescription": "This is product 2",
+    "productId": "80e2fcb3-e3af-47d0-99e8-1781fc7a4138"
+  }
+]
